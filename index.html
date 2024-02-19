@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Workout</title>
+        <link rel="apple-touch-icon" sizes="180x180" href="./img/Favicon/apple-touch-icon.png" />
+        <link rel="icon" type="image/png" sizes="32x32" href="./img/Favicon/favicon-32x32.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="./img/Favicon/favicon-16x16.png" />
+        <link rel="manifest" href="/site.webmanifest" />
+        <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
+        <meta name="msapplication-TileColor" content="#ef8964" />
+        <meta name="theme-color" content="#ef8964" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css" integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="/styles.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet" />
+    </head>
+
+    <body>
+        <header class="header" id="header">
+            <div class="container header-container">
+                <a href="./index.html" target="_blank" class="logo-link">
+                    <p class="logo">workout</p>
+                </a>
+                <ul class="header-nav-list">
+                    <li class="header-nav-item">
+                        <a class="nav-item-link"></a>
+                    </li>
+                    <li class="header-nav-item"><a href="#programs" class="nav-item-link">Programs</a></li>
+                    <li class="header-nav-item"><a href="#" class="nav-item-link">Healthy living</a></li>
+                    <li class="header-nav-item"><a href="#" class="nav-item-link">Community</a></li>
+                    <li class="header-nav-item"><a href="#" class="nav-item-link">About</a></li>
+                    <li class="header-nav-item">
+                        <a href="" class="nav-item-link">Store</a>
+                    </li>
+                </ul>
+            </div>
+        </header>
+        <main>
+            <section class="hero">
+                <div class="container hero-container">
+                    <div class="hero-header-img-wrap">
+                        <h1 class="hero-header">workout with me</h1>
+                        <img srcset="./img/hero-img.png 1x, ./img/hero-img-2x.png 2x" src="./img/hero-img.png" alt="man" class="hero-image" />
+                        <div class="hero-link-km">
+                            <div class="running-man-holder">
+                                <svg class="running-man-icon" width="16" height="16"><use href="./img/icons.svg#icon-running-man"></use></svg>
+                            </div>
+                            <a href="" target="_blank" class="distance">4,95<span class="span-km">km</span></a>
+                        </div>
+                        <div class="hero-link-tutorial-wrap">
+                            <div class="tutorial-icon-holder">
+                                <svg class="tutorial-icon" width="40" height="40"><use href="./img/icons.svg#icon-tutorial"></use></svg>
+                            </div>
+                            <a href="" target="_blank" class="tutorial-link">350 +<span class="span-tutorial">Video tutorial</span></a>
+                        </div>
+                        <div class="hero-link-workout-holder">
+                            <a href="" target="_blank" class="workout-videos-link">500+<span class="span-workout-videos">Free Workout Videos</span></a>
+                        </div>
+                    </div>
+                    <p class="section-text hero-text">A huge selection of health and fitness content, healthy recipes and transformation stories to help you get fit and stay fit!</p>
+                    <a href="" class="hero-link">Join Club Now!</a>
+                    <div class="partners-wrap">
+                        <p class="partners-text">as featured in</p>
+                        <ul class="partners-list">
+                            <li class="partner-item">
+                                <svg class="partner-log" width="57.14" height="20">
+                                    <use href="./img/icons.svg#icon-nike"></use>
+                                </svg>
+                            </li>
+                            <li class="partner-item">
+                                <svg class="partner-logo" width="121" height="20">
+                                    <use href="./img/icons.svg#icon-buzz"></use>
+                                </svg>
+                            </li>
+                            <li class="partner-item">
+                                <svg class="partner-logo" width="88.84" height="20">
+                                    <use href="./img/icons.svg#icon-esprit"></use>
+                                </svg>
+                            </li>
+                            <li class="partner-item">
+                                <svg class="partner-logo" width="43.87" height="20">
+                                    <use href="./img/icons.svg#icon-nationalgeogr"></use>
+                                </svg>
+                            </li>
+                            <li class="partner-item">
+                                <svg class="partner-logo" width="27.02" height="20">
+                                    <use href="./img/icons.svg#icon-dw"></use>
+                                </svg>
+                            </li>
+                            <li class="partner-item">
+                                <svg class="partner-logo" width="171.05" height="20">
+                                    <use href="./img/icons.svg#icon-huffpost"></use>
+                                </svg>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <section class="programs" id="programs">
+                <div class="container programs-container">
+                    <h2 class="section-header">Not sure where to start?</h2>
+                    <p class="section-text programs-text">Programs offer day-to-day guidance on an interactive calendar to keep you on track.</p>
+                    <ul class="programs-list">
+                        <li class="programs-item item-one">
+                            <p class="program-name">Workout Videos</p>
+                            <div class="text-arrow-wrap">
+                                <p class="program-description">Access to hundreds of free, full-length workout videos.</p>
+                                <a class="arrow-link"
+                                    ><svg class="arrow-icon" width="24.2" height="19.6"><use href="./img/icons.svg#icon-rightarrow"></use></svg
+                                ></a>
+                            </div>
+                        </li>
+                        <li class="programs-item item-two">
+                            <p class="program-name">Workout Programs</p>
+                            <div class="text-arrow-wrap">
+                                <p class="program-description">Affordable and effective workout programs.</p>
+                                <a class="arrow-link"
+                                    ><svg class="arrow-icon" width="24.2" height="19.6"><use href="./img/icons.svg#icon-rightarrow"></use></svg
+                                ></a>
+                            </div>
+                        </li>
+                        <li class="programs-item item-three">
+                            <p class="program-name">Meal Plans</p>
+                            <div class="text-arrow-wrap">
+                                <p class="program-description">Plans built with registered dietitians and nutritionists.</p>
+                                <a class="arrow-link"
+                                    ><svg class="arrow-icon" width="24.2" height="19.6"><use href="./img/icons.svg#icon-rightarrow"></use></svg
+                                ></a>
+                            </div>
+                        </li>
+                        <li class="programs-item item-four">
+                            <p class="program-name">WO Plus ALL ACCESS</p>
+                            <div class="text-arrow-wrap">
+                                <p class="program-description">Add powerful features to your membership.</p>
+                                <a class="arrow-link"
+                                    ><svg class="arrow-icon" width="24.2" height="19.6"><use href="./img/icons.svg#icon-rightarrow"></use></svg
+                                ></a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <section class="believes">
+                <div class="container believes-container">
+                    <ul class="believes-list">
+                        <li class="believes-item">
+                            <div class="believes-item-text-wrap">
+                                <h2 class="section-header believes-header">Work out at home for free.</h2>
+                                <p class="section-text section-text-one">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym. With hundreds of professional workouts, healthy recipes and informative articles, as well as one of the most positive communities on the web, you’ll have everything you need to reach your personal fitness goals – for free!</p>
+                                <div class="see-more-link-wrap">
+                                    <a href="" class="see-more-link">See more</a>
+                                    <svg class="arrow-link" width="24.2" height="19.6"><use href="./img/icons.svg#icon-rightarrow"></use></svg>
+                                </div>
+                            </div>
+                            <div class="believes-img-holder">
+                                <img srcset="./img/yogagirl.jpg 1x, ./img.yogagirl-2x.jpg 2x" src="./img/yogagirl.jpg" alt="yoga-girl" width="640" />
+                            </div>
+                        </li>
+                        <li class="believes-item">
+                            <div class="believes-item-text-wrap">
+                                <h2 class="section-header believes-header-large">Get more with low-cost training programs and advanced features.</h2>
+                                <p class="section-text section-text-two">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym. With hundreds of professional workouts, healthy recipes and informative articles, as well as one of the most positive communities on the web, you’ll have everything you need to reach your personal fitness goals – for free!</p>
+                                <div class="see-more-link-wrap">
+                                    <a href="" class="see-more-link">See more</a>
+                                    <svg class="arrow-link" width="24.2" height="19.6"><use href="./img/icons.svg#icon-rightarrow"></use></svg>
+                                </div>
+                            </div>
+                            <div class="believes-img-holder">
+                                <img srcset="./img/sportgirl.jpg 1x, ./img.sportgirl-2x.jpg 2x" src="./img/sportgirl.jpg" alt="sport-girl" width="560" />
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <section class="membership">
+                <div class="container membership-container">
+                    <h2 class="membership-title">Membership</h2>
+                    <ul class="membership-list">
+                        <li class="membership-item membership-item-one">
+                            <h3 class="section-header membership-subtitle">Join for Free</h3>
+                            <p class="membership-text">Reach your fitness goals or maintain your healthy lifestyle with professional training and support from a positive and active online community.</p>
+                            <ul class="membership-text membership-text-list">
+                                <li class="membership-text-item">~600 Full-Length Workout Videos</li>
+                                <li class="membership-text-item">Customizable Calendar</li>
+                                <li class="membership-text-item">Healthy Recipes</li>
+                                <li class="membership-text-item">Health and Fitness Articles</li>
+                                <li class="membership-text-item">Positive and Supportive Online Community</li>
+                                <li class="membership-text-item">No Credit Card Needed</li>
+                            </ul>
+                            <div class="see-more-link-wrap">
+                                <a href="" class="see-more-link">See more</a>
+                                <svg class="arrow-link" width="24.2" height="19.6"><use href="./img/icons.svg#icon-rightarrow"></use></svg>
+                            </div>
+                        </li>
+                        <li class="membership-item membership-item-two">
+                            <h3 class="section-header membership-subtitle">WO Plus</h3>
+                            <p class="membership-text">WO Plus includes everything you get with a free membership and adds brand new convenience features, fitness tools, and unique content.</p>
+                            <ul class="membership-text membership-text-list">
+                                <li class="membership-text-item">Ads-Free Website and Videos</li>
+                                <li class="membership-text-item">Surprise Me Workout Selection Tool</li>
+                                <li class="membership-text-item">Statistics for Your Activities</li>
+                                <li class="membership-text-item">Enter and Track Custom Workouts</li>
+                                <li class="membership-text-item">FB Plus Exclusive Workouts</li>
+                                <li class="membership-text-item">Trackers to See Your Progress</li>
+                                <li class="membership-text-item">FB Plus Content and Challenges</li>
+                                <li class="membership-text-item">Video Tags</li>
+                                <li class="membership-text-item">FB Plus Routines</li>
+                                <li class="membership-text-item">Rest Day Complete</li>
+                            </ul>
+                            <a href=" " class="join-link">Join Club Now!</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="container back-top-btn">
+                    <a href="#header " class="back-to-top-link"
+                        >Back to Top
+                        <svg class="top-arrow-icon" width="17 " height="10 ">
+                            <use href="./img/icons.svg#icon-uparrow "></use>
+                        </svg>
+                    </a>
+                </div>
+            </section>
+        </main>
+    </body>
+</html>
